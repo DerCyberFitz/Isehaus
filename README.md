@@ -24,3 +24,6 @@ Script 1 - Identify orphaned Netwiork Devices
   Proposed enhancement 2) could be quite chaotic, so it is highly recommended that 
   you export your Network Devices PRIOR TO RUNNING THE SCRIPT in case you need to easily restore an object.
 
+To run the script, user the ISE server, user credential and password as parameters:
+
+python ping_all_net_devices.py <ise-server> <user-id> <password>
